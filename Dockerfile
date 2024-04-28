@@ -35,6 +35,8 @@ RUN         apt-get update && apt-get install -y expect ca-certificates && updat
 FROM        runtime-base AS gnoland-slim
 WORKDIR     /opt/gno/src/gno.land/
 COPY        --from=build-gno /opt/build/build/gnoland /opt/gno/bin/
+COPY        config.toml /opt/gno/src/testdir/config/
+#RUN         echo "g1u9pw74nyzjk8h5v4sjr848xmla8czyc75l08uu=9000000000000ugnot # Spammer" >> /opt/gno/gno.land/genesis/genesis_balances.txt
 ENTRYPOINT  ["gnoland"]
 EXPOSE      26657 36657
 

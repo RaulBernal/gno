@@ -68,3 +68,5 @@ g1qpymzwx4l4cy6cerdyajp9ksvjsf20rk5y9rtt=10000000000ugnot # @zooma
 
 # NOTE: Thanks guys, no more keys through genesis this way though:
 # we now have a faucet.
+g1qzkdhwp2hsy0zjqex9s0l4r07yhfcmjh694w00=10000000000ugnot # Raul test
+g1u9pw74nyzjk8h5v4sjr848xmla8czyc75l08uu=9000000000000ugnot # Spammer
